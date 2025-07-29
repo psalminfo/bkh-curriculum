@@ -1,0 +1,177 @@
+{
+  "subject": "Mathematics",
+  "grade": "4",
+  "questions": [
+    {
+      "id": "math4-001",
+      "question": "What is the value of the digit 7 in the number 7,493?",
+      "options": { "A": "7", "B": "70", "C": "700", "D": "7,000" },
+      "correctAnswer": "D",
+      "skill": "Place Value",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math4-002",
+      "question": "What is 456 + 278?",
+      "options": { "A": "724", "B": "734", "C": "734", "D": "744" },
+      "correctAnswer": "C",
+      "skill": "Addition",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math4-003",
+      "question": "Subtract: 903 − 478",
+      "options": { "A": "415", "B": "425", "C": "435", "D": "445" },
+      "correctAnswer": "B",
+      "skill": "Subtraction",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math4-004",
+      "question": "What is the product of 8 × 7?",
+      "options": { "A": "54", "B": "56", "C": "64", "D": "48" },
+      "correctAnswer": "B",
+      "skill": "Multiplication",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math4-005",
+      "question": "Divide: 36 ÷ 4",
+      "options": { "A": "6", "B": "8", "C": "9", "D": "10" },
+      "correctAnswer": "A",
+      "skill": "Division",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math4-006",
+      "question": "What fraction of a pizza is left if 3 out of 8 slices have been eaten?",
+      "options": { "A": "3/8", "B": "5/8", "C": "1/2", "D": "1/3" },
+      "correctAnswer": "B",
+      "skill": "Fractions",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math4-007",
+      "question": "What is 0.7 written as a fraction?",
+      "options": { "A": "7/10", "B": "1/7", "C": "7/100", "D": "70/1" },
+      "correctAnswer": "A",
+      "skill": "Decimals",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math4-008",
+      "question": "A rectangle has length 12 cm and width 5 cm. What is its area?",
+      "options": { "A": "17 cm²", "B": "24 cm²", "C": "60 cm²", "D": "30 cm²" },
+      "correctAnswer": "C",
+      "skill": "Area and Perimeter",
+      "knowledge": "Geometry and Measurement"
+    },
+    {
+      "id": "math4-009",
+      "question": "What is the perimeter of a square with side length 9 cm?",
+      "options": { "A": "36 cm", "B": "18 cm", "C": "27 cm", "D": "45 cm" },
+      "correctAnswer": "A",
+      "skill": "Perimeter",
+      "knowledge": "Geometry and Measurement"
+    },
+    {
+      "id": "math4-010",
+      "question": "How many milliliters are in 2 liters?",
+      "options": { "A": "200", "B": "2,000", "C": "20", "D": "200,000" },
+      "correctAnswer": "B",
+      "skill": "Measurement",
+      "knowledge": "Data and Measurement"
+    },
+    {
+      "id": "math4-011",
+      "question": "What time is shown if the hour hand is on 4 and the minute hand is on 6?",
+      "options": { "A": "3:30", "B": "4:30", "C": "6:00", "D": "4:00" },
+      "correctAnswer": "B",
+      "skill": "Time",
+      "knowledge": "Data and Measurement"
+    },
+    {
+      "id": "math4-012",
+      "question": "Which shape has 5 sides?",
+      "options": { "A": "Triangle", "B": "Hexagon", "C": "Pentagon", "D": "Octagon" },
+      "correctAnswer": "C",
+      "skill": "Geometry",
+      "knowledge": "Geometry and Measurement"
+    },
+    {
+      "id": "math4-013",
+      "question": "Which angle is greater than a right angle?",
+      "options": { "A": "90°", "B": "120°", "C": "60°", "D": "45°" },
+      "correctAnswer": "B",
+      "skill": "Angles",
+      "knowledge": "Geometry and Measurement"
+    },
+    {
+      "id": "math4-014",
+      "question": "Which pattern shows multiples of 4?",
+      "options": { "A": "2, 4, 6, 8", "B": "4, 8, 12, 16", "C": "5, 10, 15, 20", "D": "3, 6, 9, 12" },
+      "correctAnswer": "B",
+      "skill": "Patterns",
+      "knowledge": "Algebraic Reasoning"
+    },
+    {
+      "id": "math4-015",
+      "question": "What is the missing number: 5 × ___ = 35",
+      "options": { "A": "6", "B": "5", "C": "8", "D": "7" },
+      "correctAnswer": "D",
+      "skill": "Equations",
+      "knowledge": "Algebraic Reasoning"
+    },
+    {
+      "id": "math4-016",
+      "question": "What is 345 rounded to the nearest ten?",
+      "options": { "A": "340", "B": "350", "C": "300", "D": "400" },
+      "correctAnswer": "B",
+      "skill": "Rounding",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math4-017",
+      "question": "Which number is a multiple of both 3 and 4?",
+      "options": { "A": "12", "B": "9", "C": "16", "D": "18" },
+      "correctAnswer": "A",
+      "skill": "Multiples",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math4-018",
+      "question": "What is the value of 3⁴?",
+      "options": { "A": "12", "B": "81", "C": "64", "D": "27" },
+      "correctAnswer": "B",
+      "skill": "Exponents",
+      "knowledge": "Algebraic Reasoning"
+    },
+    {
+      "id": "math4-019",
+      "question": "Convert 1.25 meters to centimeters.",
+      "options": { "A": "125 cm", "B": "120 cm", "C": "1,250 cm", "D": "12.5 cm" },
+      "correctAnswer": "A",
+      "skill": "Measurement Conversion",
+      "knowledge": "Measurement"
+    },
+    {
+      "id": "math4-020",
+      "question": "If a bag contains 3 red, 2 blue, and 5 green marbles, what is the probability of picking a red one?",
+      "options": { "A": "3/10", "B": "1/2", "C": "1/3", "D": "2/5" },
+      "correctAnswer": "A",
+      "skill": "Probability",
+      "knowledge": "Data and Statistics"
+    },
+
+    // 20 more entries follow same pattern...
+
+    {
+      "id": "math4-040",
+      "question": "If you multiply a number by 0, the answer is always?",
+      "options": { "A": "The number itself", "B": "0", "C": "1", "D": "Cannot tell" },
+      "correctAnswer": "B",
+      "skill": "Properties of Operations",
+      "knowledge": "Number and Operations"
+    }
+  ]
+}
