@@ -1,0 +1,401 @@
+{
+  "subject": "Mathematics",
+  "grade": "3",
+  "questions": [
+    {
+      "id": "math3-001",
+      "question": "Which number sentence shows the correct multiplication fact for 4 groups of 3?",
+      "options": {
+        "A": "3 × 4 = 12",
+        "B": "4 × 4 = 12",
+        "C": "3 + 3 + 3 = 12",
+        "D": "4 × 3 = 7"
+      },
+      "correctAnswer": "A",
+      "skill": "Multiplication",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math3-002",
+      "question": "What is the value of the digit 5 in the number 5,432?",
+      "options": {
+        "A": "5",
+        "B": "50",
+        "C": "500",
+        "D": "5,000"
+      },
+      "correctAnswer": "D",
+      "skill": "Place Value",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math3-003",
+      "question": "Which of these is an odd number?",
+      "options": {
+        "A": "24",
+        "B": "36",
+        "C": "15",
+        "D": "8"
+      },
+      "correctAnswer": "C",
+      "skill": "Odd/Even",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math3-004",
+      "question": "What is the perimeter of a rectangle with length 6 cm and width 4 cm?",
+      "options": {
+        "A": "20 cm",
+        "B": "24 cm",
+        "C": "12 cm",
+        "D": "10 cm"
+      },
+      "correctAnswer": "A",
+      "skill": "Perimeter",
+      "knowledge": "Geometry and Measurement"
+    },
+    {
+      "id": "math3-005",
+      "question": "Which of the following represents one-third?",
+      "options": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "3/4",
+        "D": "2/3"
+      },
+      "correctAnswer": "B",
+      "skill": "Fractions",
+      "knowledge": "Number and Operations"
+    },
+
+    {
+      "id": "math3-006",
+      "question": "What is 345 rounded to the nearest ten?",
+      "options": {
+        "A": "340",
+        "B": "300",
+        "C": "350",
+        "D": "400"
+      },
+      "correctAnswer": "C",
+      "skill": "Rounding",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math3-007",
+      "question": "Which expression is equal to 7 × 6?",
+      "options": {
+        "A": "7 + 6",
+        "B": "6 + 6 + 6",
+        "C": "6 × 7",
+        "D": "7 × 7"
+      },
+      "correctAnswer": "C",
+      "skill": "Commutative Property",
+      "knowledge": "Algebraic Reasoning"
+    },
+    {
+      "id": "math3-008",
+      "question": "What is 127 + 389?",
+      "options": {
+        "A": "506",
+        "B": "416",
+        "C": "516",
+        "D": "512"
+      },
+      "correctAnswer": "C",
+      "skill": "Addition",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math3-009",
+      "question": "Which of the following is a quadrilateral?",
+      "options": {
+        "A": "Triangle",
+        "B": "Pentagon",
+        "C": "Hexagon",
+        "D": "Rectangle"
+      },
+      "correctAnswer": "D",
+      "skill": "Shapes",
+      "knowledge": "Geometry and Measurement"
+    },
+    {
+      "id": "math3-010",
+      "question": "A pencil costs $0.75. How much do 4 pencils cost?",
+      "options": {
+        "A": "$3.00",
+        "B": "$2.25",
+        "C": "$3.25",
+        "D": "$2.75"
+      },
+      "correctAnswer": "A",
+      "skill": "Multiplication with Decimals",
+      "knowledge": "Personal Financial Literacy"
+    },
+
+    {
+      "id": "math3-011",
+      "question": "Which number is the greatest?",
+      "options": {
+        "A": "1,234",
+        "B": "1,243",
+        "C": "1,432",
+        "D": "1,324"
+      },
+      "correctAnswer": "C",
+      "skill": "Comparing Numbers",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math3-012",
+      "question": "If a triangle has three equal sides, what kind of triangle is it?",
+      "options": {
+        "A": "Scalene",
+        "B": "Isosceles",
+        "C": "Right",
+        "D": "Equilateral"
+      },
+      "correctAnswer": "D",
+      "skill": "Shapes",
+      "knowledge": "Geometry and Measurement"
+    },
+    {
+      "id": "math3-013",
+      "question": "What is 100 less than 1,000?",
+      "options": {
+        "A": "100",
+        "B": "900",
+        "C": "800",
+        "D": "1,100"
+      },
+      "correctAnswer": "B",
+      "skill": "Subtraction",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math3-014",
+      "question": "How many sides does a hexagon have?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "correctAnswer": "B",
+      "skill": "Shapes",
+      "knowledge": "Geometry and Measurement"
+    },
+    {
+      "id": "math3-015",
+      "question": "Which time is shown on a clock with the hour hand on 3 and minute hand on 12?",
+      "options": {
+        "A": "3:30",
+        "B": "3:00",
+        "C": "12:03",
+        "D": "12:15"
+      },
+      "correctAnswer": "B",
+      "skill": "Telling Time",
+      "knowledge": "Data and Time"
+    },
+
+    {
+      "id": "math3-016",
+      "question": "Which number is a multiple of 6?",
+      "options": {
+        "A": "20",
+        "B": "24",
+        "C": "27",
+        "D": "31"
+      },
+      "correctAnswer": "B",
+      "skill": "Multiples",
+      "knowledge": "Algebraic Reasoning"
+    },
+    {
+      "id": "math3-017",
+      "question": "Which fraction is equivalent to 2/4?",
+      "options": {
+        "A": "3/4",
+        "B": "4/8",
+        "C": "1/3",
+        "D": "1/2"
+      },
+      "correctAnswer": "D",
+      "skill": "Fractions",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math3-018",
+      "question": "A box contains 3 red, 2 blue, and 5 green marbles. What is the total number of marbles?",
+      "options": {
+        "A": "10",
+        "B": "9",
+        "C": "11",
+        "D": "8"
+      },
+      "correctAnswer": "C",
+      "skill": "Word Problems",
+      "knowledge": "Data Analysis"
+    },
+    {
+      "id": "math3-019",
+      "question": "What is the area of a rectangle that is 5 cm long and 3 cm wide?",
+      "options": {
+        "A": "8 cm²",
+        "B": "15 cm²",
+        "C": "30 cm²",
+        "D": "10 cm²"
+      },
+      "correctAnswer": "B",
+      "skill": "Area",
+      "knowledge": "Geometry and Measurement"
+    },
+    {
+      "id": "math3-020",
+      "question": "Which number makes this equation true? 9 + ___ = 14",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "4",
+        "D": "6"
+      },
+      "correctAnswer": "B",
+      "skill": "Basic Operations",
+      "knowledge": "Algebraic Reasoning"
+    },
+
+    {
+      "id": "math3-021",
+      "question": "Which shape has exactly one line of symmetry?",
+      "options": {
+        "A": "Square",
+        "B": "Circle",
+        "C": "Rectangle",
+        "D": "Heart"
+      },
+      "correctAnswer": "D",
+      "skill": "Symmetry",
+      "knowledge": "Geometry"
+    },
+    {
+      "id": "math3-022",
+      "question": "Which expression is equal to 3 × (4 + 2)?",
+      "options": {
+        "A": "3 × 4 + 2",
+        "B": "3 × 6",
+        "C": "3 + 6",
+        "D": "4 + 2 + 3"
+      },
+      "correctAnswer": "B",
+      "skill": "Order of Operations",
+      "knowledge": "Algebraic Reasoning"
+    },
+    {
+      "id": "math3-023",
+      "question": "What is the missing number in this pattern? 2, 4, 6, ___, 10",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "12"
+      },
+      "correctAnswer": "B",
+      "skill": "Patterns",
+      "knowledge": "Algebraic Reasoning"
+    },
+    {
+      "id": "math3-024",
+      "question": "Which tool would you use to measure the length of a pencil?",
+      "options": {
+        "A": "Thermometer",
+        "B": "Scale",
+        "C": "Ruler",
+        "D": "Clock"
+      },
+      "correctAnswer": "C",
+      "skill": "Measurement",
+      "knowledge": "Data and Measurement"
+    },
+    {
+      "id": "math3-025",
+      "question": "If 1 hour = 60 minutes, how many minutes are in 3 hours?",
+      "options": {
+        "A": "120",
+        "B": "160",
+        "C": "180",
+        "D": "200"
+      },
+      "correctAnswer": "C",
+      "skill": "Time",
+      "knowledge": "Data and Measurement"
+    },
+
+    {
+      "id": "math3-026",
+      "question": "Which of these is a unit of weight?",
+      "options": {
+        "A": "Centimeter",
+        "B": "Gram",
+        "C": "Liter",
+        "D": "Inch"
+      },
+      "correctAnswer": "B",
+      "skill": "Measurement",
+      "knowledge": "Data and Measurement"
+    },
+    {
+      "id": "math3-027",
+      "question": "Which of the following is a correct subtraction fact?",
+      "options": {
+        "A": "9 − 3 = 5",
+        "B": "12 − 6 = 6",
+        "C": "10 − 4 = 5",
+        "D": "15 − 5 = 10"
+      },
+      "correctAnswer": "D",
+      "skill": "Subtraction",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math3-028",
+      "question": "Which of these has the least value?",
+      "options": {
+        "A": "0.9",
+        "B": "0.89",
+        "C": "0.79",
+        "D": "0.8"
+      },
+      "correctAnswer": "C",
+      "skill": "Comparing Decimals",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math3-029",
+      "question": "Which is equal to one-half of 16?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "4",
+        "D": "10"
+      },
+      "correctAnswer": "B",
+      "skill": "Fractions",
+      "knowledge": "Number and Operations"
+    },
+    {
+      "id": "math3-030",
+      "question": "What is the sum of the angles in a triangle?",
+      "options": {
+        "A": "90°",
+        "B": "180°",
+        "C": "270°",
+        "D": "360°"
+      },
+      "correctAnswer": "B",
+      "skill": "Angles",
+      "knowledge": "Geometry and Measurement"
+    }
+  ]
+}
