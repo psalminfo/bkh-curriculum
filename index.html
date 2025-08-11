@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Image Extractor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+
+    <div class="bg-white p-8 rounded-2xl shadow-xl w-full max-w-xl text-center">
+        <h1 class="text-3xl font-bold mb-6 text-gray-800">Extract Images from PDF</h1>
+        <p class="text-gray-600 mb-8">
+            Select a PDF file below to extract all its images and get them in a zip folder.
+        </p>
+
+        <!-- The file input for selecting a PDF -->
+        <div class="flex items-center justify-center w-full mb-6">
+            <label for="pdf-input" class="flex flex-col items-center justify-center w-full h-40 border-2 border-gray-300 border-dashed rounded-xl cursor-pointer bg-gray-50 hover:bg-gray-100 transition-colors">
+                <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                    <svg class="w-10 h-10 mb-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-4-4v-1a4 4 0 014-4h10a4 4 0 014 4v1a4 4 0 01-4 4H7z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12l-3-3m0 0l-3 3m3-3v8"></path>
+                    </svg>
+                    <p class="mb-2 text-sm text-gray-500"><span class="font-semibold">Click to upload</span> or drag and drop</p>
+                    <p class="text-xs text-gray-500">PDF files only</p>
+                </div>
+                <input id="pdf-input" type="file" class="hidden" accept=".pdf" />
+            </label>
+        </div>
+
+        <!-- Button to trigger the extraction process -->
+        <button id="extract-button" class="w-full px-5 py-3 text-lg font-medium text-white bg-blue-600 rounded-xl hover:bg-blue-700 transition-colors focus:outline-none focus:ring-4 focus:ring-blue-300 disabled:bg-blue-400" disabled>
+            Extract Images
+        </button>
+
+        <!-- Message box for displaying status updates -->
+        <div id="message-box" class="mt-6 text-gray-700 font-medium">
+            <!-- Status messages will appear here -->
+        </div>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const fileInput = document.getElementById('pdf-input');
+            const extractButton = document.getElementById('extract-button');
+            const messageBox = document.getElementById('message-box');
+
+            // Listen for file selection
+            fileInput.addEventListener('change', (event) => {
+                const file = event.target.files[0];
+                if (file) {
+                    messageBox.textContent = `Selected file: ${file.name}`;
+                    extractButton.disabled = false;
+                } else {
+                    messageBox.textContent = 'No file selected.';
+                    extractButton.disabled = true;
+                }
+            });
+
+            // Listen for button click
+            extractButton.addEventListener('click', async () => {
+                const file = fileInput.files[0];
+                if (!file) {
+                    messageBox.textContent = 'Please select a PDF file first.';
+                    return;
+                }
+
+                // Display a "Processing..." message
+                messageBox.textContent = 'Processing PDF... This may take a moment.';
+                extractButton.disabled = true;
+
+                // Create a FormData object to send the file
+                const formData = new FormData();
+                formData.append('pdfFile', file);
+
+                try {
+                    // Send the file to the Netlify Function endpoint
+                    const response = await fetch('/.netlify/functions/extract-images', {
+                        method: 'POST',
+                        body: formData
+                    });
+
+                    if (response.ok) {
+                        // The response is the zip file. Create a download link.
+                        const blob = await response.blob();
+                        const url = window.URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        a.style.display = 'none';
+                        a.href = url;
+                        a.download = 'extracted_images.zip';
+                        document.body.appendChild(a);
+                        a.click();
+                        window.URL.revokeObjectURL(url);
+                        messageBox.textContent = 'Extraction complete! Your download should start automatically.';
+                    } else {
+                        // Handle server-side errors
+                        const errorText = await response.text();
+                        messageBox.textContent = `Error: ${errorText}`;
+                    }
+                } catch (error) {
+                    // Handle network or other errors
+                    messageBox.textContent = `An error occurred: ${error.message}`;
+                    console.error('Fetch error:', error);
+                } finally {
+                    extractButton.disabled = false;
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

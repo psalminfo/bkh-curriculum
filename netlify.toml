@@ -1,0 +1,11 @@
+[build]
+  # The publish directory for the front-end files
+  publish = "."
+  # The directory for Netlify Functions
+  functions = "functions"
+
+# Optional: Redirects for a more robust setup
+# [[redirects]]
+#   from = "/api/*"
+#   to = "/.netlify/functions/:splat"
+#   status = 200
